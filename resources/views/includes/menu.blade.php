@@ -1,7 +1,7 @@
 <header class="main-header">
 
     <div class="container">
-        jubbart
+        <img src="{{ Voyager::image(setting('site.logo')) }}" alt="Logo">
     </div>
 
 </header>

@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# profile: http://ogp.me/ns/profile#">
         @include('includes.header')
     </head>
-    <body>
+    <body style="background: {{setting('site.background_color')}}">
         <div class="flex-container">
             @section('body')
 

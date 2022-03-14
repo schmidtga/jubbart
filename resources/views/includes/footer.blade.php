@@ -1,8 +1,6 @@
 <footer>
     <div class="container">
-        <ul class="social-menu">
-            <li><a href="{{ setting('site.instagram_url') }}">instagram</a></li>
-        </ul>
+        
     </div>
 </footer>
 

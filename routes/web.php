@@ -16,6 +16,7 @@ use App\Http\Controllers\FrontController;
 
 Route::get('/', [FrontController::class, 'home'])->name('home');
 
+Route::get('/projeto/{slug}', [FrontController::class, 'project'])->name('project');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

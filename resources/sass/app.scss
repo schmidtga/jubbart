@@ -1,0 +1,96 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+  margin: 0;
+  padding: 1rem;
+  color: black;
+  font-size: 16px;
+
+  .main-header {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    .main-title {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        .main-title-box {
+          background-color: #fff;
+          border: 2px solid black;
+          border-radius: 50px;
+          padding: 10px 20px;
+          margin: 0 10px 0 0;
+          h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.250rem;
+          }
+        }
+        .main-title-logo {
+          img {
+            max-height: 50px;
+          }
+        }
+      }
+    }
+    .main-nav {
+      ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;      
+        li {
+          background: #ffed4e;
+          border: 2px solid black;
+          border-radius: 50px;
+          margin: 0 5px;
+          padding: 10px 20px;
+          &.instagram {
+            background: transparent;
+            border: none;
+            border-radius: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .masonry-with-columns {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+    div {
+      margin: 0 1rem 1rem 0;
+      font-size: .9rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+
+}

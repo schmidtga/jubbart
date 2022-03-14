@@ -16,4 +16,12 @@ class FrontController extends Controller
         return view('pages/home', compact('home'));
     }
 
+    public function project(Request $request)
+    {
+        $slug = $request->slug;
+        $project = Project::where('slug', $slug)->firstOrFail();
+
+        return view('pages/project', compact('project'));
+    }
+
 }
